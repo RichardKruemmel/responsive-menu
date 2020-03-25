@@ -1,0 +1,182 @@
+@media (max-width: 640px) {
+
+body {
+    padding: 0;
+    padding-top: 0;
+    margin-top:0;
+    margin-left: 2em;
+    margin-right: 3em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    }
+
+header {
+    margin-bottom: 3em;
+}
+
+h1 {
+    color: #e26159;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    
+}
+
+.logo {
+    content: url("factory-logo.svg")
+}
+
+.day {color: #e26159;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+}
+    
+
+hr {
+    display: block; height: 1px; width: 33px;
+    border: 0; border-top: 1px solid #e26159;
+    margin: 1em 0; padding: 0;
+}
+
+.hashtag {
+    color: #e26159;
+}
+
+.ingredients {
+    padding-bottom: 0;
+    margin-bottom: 1px;
+}
+
+.addatives {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 12px;
+    font-style: italic;
+}
+}
+@media (min-width: 640px){
+body {
+    padding: 0;
+    padding-top: 0;
+    margin-top:0;
+    margin-left: 2em;
+    margin-right: 3em;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #e26159;
+    }
+
+header {
+    margin-bottom: 3em;
+}
+
+h1 {
+    color: black;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+
+.day {color: black;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 24px;
+}
+    
+.logo {
+    content: url("factory-logo-inverted.svg");
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+hr {
+    display: block; height: 1px; width: 33px;
+    border: 0; border-top: 1px solid black;
+    margin: 1em 0; padding: 0;
+}
+
+.hashtag {
+    color: black;
+}
+
+.ingredients {
+    padding-bottom: 0;
+    margin-bottom: 1px;
+}
+
+.addatives {
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 12px;
+    font-style: italic;
+}
+}
+
+@media (min-width: 800px){
+    body {
+        padding: 0 9vw;
+        margin: 0 9vw;
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 20px;
+        color: white;
+        background-color: #e26159;
+        }
+    
+    header {
+        margin-bottom: 3em;
+    }
+    
+    h1 {
+        color: black;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 20px;
+        
+    }
+    
+    .day {color: black;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 24px;
+    }
+        
+    
+    hr {
+        display: block; height: 1px; width: 33px;
+        border: 0; border-top: 1px solid black;
+        margin: 1em 0; padding: 0;
+    }
+    
+    .hashtag {
+        color: black;
+    }
+    
+    .ingredients {
+        padding-bottom: 0;
+        margin-bottom: 1px;
+    }
+    
+    .addatives {
+        padding-top: 0;
+        margin-top: 0;
+        font-size: 12px;
+        font-style: italic;
+    }
+    @keyframes blink {
+        50% {
+          opacity: 0.0;
+        }
+      }
+    @-webkit-keyframes blink {
+        50% {
+          opacity: 0.0;
+        }
+      }
+      .logo {
+        animation: blink 0.5s step-start 0s infinite;
+        -webkit-animation: blink 0.5s step-start 0s infinite;
+      }
+}
